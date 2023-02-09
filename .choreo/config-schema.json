@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "lakshansivagnanasothy": {
+      "type": "object",
+      "properties": {
+        "csv_sample": {
+          "type": "object",
+          "properties": {
+            "amazonS3AccessKeyId": {
+              "type": "string",
+              "description": ""
+            },
+            "amazonS3SecretAccessKey": {
+              "type": "string",
+              "description": ""
+            },
+            "amazonS3Region": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "amazonS3AccessKeyId",
+            "amazonS3SecretAccessKey",
+            "amazonS3Region"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
